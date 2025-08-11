@@ -12,6 +12,15 @@ UltraX Trading Analyzer is a sophisticated backend system that provides intellig
 - **Real-time Market Data**: Live integration with Binance API for accurate price and volume data
 - **Historical Data Analysis**: 30-90 day historical data for comprehensive pattern recognition
 
+![Buy Signal Example](fe_images/buy_signal.png)
+*BUY signal generated when RSI indicates oversold conditions with high confidence scoring*
+
+![Sell Signal Example](fe_images/sell_signal.png)
+*SELL signal triggered by overbought RSI conditions and negative MACD momentum*
+
+![Hold Signal Example](fe_images/hold_signal.png)
+*HOLD recommendation when indicators show neutral market conditions*
+
 ### Anomaly Detection Using Isolation Forest
 - **Machine Learning Approach**: Implements scikit-learn's IsolationForest algorithm
 - **Feature Engineering**: Statistical features including price volatility, volume spikes, and trend changes
@@ -22,6 +31,9 @@ UltraX Trading Analyzer is a sophisticated backend system that provides intellig
 - **Multi-Symbol Support**: Analyze multiple cryptocurrencies simultaneously
 - **Comprehensive Insights**: Market data, trading signals, and anomaly detection for each symbol
 - **Fallback Mechanisms**: Robust error handling with mock data generation for unsupported symbols
+
+![Portfolio Analysis Dashboard](fe_images/portfolio_analysis.png)
+*Multi-symbol portfolio analysis showing comprehensive trading insights and anomaly detection*
 
 ## Technical Architecture
 
@@ -113,6 +125,9 @@ The server will start on `http://localhost:8000` with automatic API documentatio
 ### Additional Symbols
 - DOGEUSDT, MATICUSDT, DOTUSDT, LINKUSDT, UNIUSDT
 - AVAXUSDT, ATOMUSDT, LTCUSDT, XRPUSDT, BCHUSDT
+
+![Supported Trading Tokens](fe_images/supported_tokens.png)
+*Comprehensive list of supported cryptocurrency trading pairs with real-time market data access*
 
 ## Testing
 
